@@ -3,7 +3,11 @@ module.exports = {
   mode: "jit",
   content: ["./dist/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cera: ["cerapro-bold", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
