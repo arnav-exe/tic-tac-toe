@@ -4,6 +4,10 @@ module.exports = {
   content: ["./dist/**/*.html"],
   theme: {
     extend: {
+      colors: {
+        "primary": "#4338CA",
+        "secondary": "#67E8F9"
+      },
       fontFamily: {
         cera: ["cerapro-bold", "sans-serif"],
       },
